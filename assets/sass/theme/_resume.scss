@@ -1,0 +1,112 @@
+// Start //
+
+// Resume / Education & Experience Section
+.timeline-resume {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-left: 2.5rem;
+
+    .timeline-card {
+        position: relative;
+        background-color: #212529;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        padding: 2rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        border: 2px solid transparent;
+        font-family: 'Playfair Display', serif;
+        transition: none; // no hover effect
+
+        // DOT
+        &::before {
+            content: '';
+            position: absolute;
+            left: -35px;
+            top: 1.5rem;
+            width: 14px;
+            height: 14px;
+            background-color: #28a745;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 2px #28a745;
+            z-index: 2;
+        }
+
+        // LINE from this dot to next dot
+        &::after {
+            content: '';
+            position: absolute;
+            left: -28px;
+            top: calc(1.5rem + 7px); // middle of dot
+            width: 2px;
+            height: calc(100% + 2.5rem - 1.5rem - 7px);
+            background-color: #28a745;
+            z-index: 1;
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+
+        .left {
+            max-width: 70%;
+
+            h5 {
+                font-weight: bold;
+                color: #fff;
+                font-weight: 600;
+                font-family: 'Montserrat', sans-serif;
+                margin-bottom: 0.25rem;
+            }
+
+            p {
+                margin-bottom: 0;
+                color: #cccccc8a;
+                -family: 'Playfair Display', serif;
+                align-items: start;
+            }
+        }
+
+        .right {
+            min-width: 25%;
+            text-align: right;
+
+            span {
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+
+    // Responsive
+    @media (max-width: 768px) {
+        padding-left: 2rem;
+
+        .timeline-card {
+            flex-direction: column;
+            align-items: flex-start;
+
+            .right {
+                text-align: left;
+                margin-top: 0.75rem;
+            }
+
+            &::before {
+                left: -26px;
+                top: 1.2rem;
+            }
+
+            &::after {
+                left: -20px;
+            }
+        }
+    }
+}
