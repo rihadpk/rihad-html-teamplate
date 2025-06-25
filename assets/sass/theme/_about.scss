@@ -40,7 +40,7 @@ section {
             }
 
             p.text-success {
-                color: #46e87c !important;
+                color: #28a645 !important;
                 font-family: 'Playfair Display', serif;
             }
 
@@ -52,7 +52,7 @@ section {
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: #46e87c;
+                    color: #28a645;
                 }
 
             }
@@ -75,7 +75,7 @@ section {
 
                 &:hover {
                     color: #000;
-                    background-color: #46e87c;
+                    background-color: #28a645;
                     border-radius: 50%;
                     padding: 5px 11px;
                 }
@@ -124,7 +124,7 @@ section {
 // About Section Styling
 .col-xl-8.col-lg-7.col-md-6 {
     .badge.bg-success {
-        background-color: #46e87c !important; // Green badge
+        background-color: #28a645 !important; // Green badge
         color: #000;
         font-size: 0.75rem;
         padding: 0.3rem 0.6rem;
@@ -143,7 +143,7 @@ section {
         font-family: 'Montserrat', sans-serif;
 
         span.text-success {
-            color: #46e87c; // Highlighted text in green
+            color: #28a645; // Highlighted text in green
         }
     }
 

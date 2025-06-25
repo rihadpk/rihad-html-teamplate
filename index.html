@@ -532,6 +532,49 @@
         </footer>
         <!--Footer End-->
 
+        <!--preloader start-->
+        <div id="preloader">
+            <div class="loader">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!--preloader end-->
+
+
+
+        <!-- Messenger Button -->
+        <button id="messageBtn" class="floating-message">
+            <i id="msgIcon" class="fa-brands fa-facebook-messenger"></i>
+        </button>
+
+        <!-- Chat Box -->
+        <div id="chatBox" class="chat-box">
+            <div class="chat-header">
+                Let's chat with me? - <span class="online">Online</span>
+            </div>
+            <p class="chat-info">Please fill out the form below to start chatting with me directly.</p>
+
+            <!-- ✅ Form With ID & name attributes -->
+            <form class="chat-form" id="contactForm">
+                <input type="hidden" name="_autoresponse" value="Thanks! I will reply soon.">
+                <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" rows="3" required></textarea>
+                <!-- Hidden autoresponse input -->
+                <input type="hidden" name="_autoresponse" value="Thanks! I’ll reply soon.">
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+
+        <!-- end -->
+
+
+
     </main>
 
     <!-- Swiper JS -->

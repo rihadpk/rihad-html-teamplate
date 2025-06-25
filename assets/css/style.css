@@ -29,7 +29,7 @@ section .col-xl-4.col-lg-5.col-md-6 .card h3 {
   font-family: "Montserrat", sans-serif;
 }
 section .col-xl-4.col-lg-5.col-md-6 .card p.text-success {
-  color: #46e87c !important;
+  color: #28a645 !important;
   font-family: "Playfair Display", serif;
 }
 section .col-xl-4.col-lg-5.col-md-6 .card a {
@@ -40,7 +40,7 @@ section .col-xl-4.col-lg-5.col-md-6 .card a {
   transition: color 0.3s ease;
 }
 section .col-xl-4.col-lg-5.col-md-6 .card a:hover {
-  color: #46e87c;
+  color: #28a645;
 }
 section .col-xl-4.col-lg-5.col-md-6 .small {
   font-size: 0.8rem;
@@ -58,7 +58,7 @@ section .col-xl-4.col-lg-5.col-md-6 .d-flex.gap-2 a {
 }
 section .col-xl-4.col-lg-5.col-md-6 .d-flex.gap-2 a:hover {
   color: #000;
-  background-color: #46e87c;
+  background-color: #28a645;
   border-radius: 50%;
   padding: 5px 11px;
 }
@@ -95,7 +95,7 @@ section .col-xl-4.col-lg-5.col-md-6 .d-flex.gap-2 a i.fab {
   }
 }
 .col-xl-8.col-lg-7.col-md-6 .badge.bg-success {
-  background-color: #46e87c !important;
+  background-color: #28a645 !important;
   color: #000;
   font-size: 0.75rem;
   padding: 0.3rem 0.6rem;
@@ -112,7 +112,7 @@ section .col-xl-4.col-lg-5.col-md-6 .d-flex.gap-2 a i.fab {
   font-family: "Montserrat", sans-serif;
 }
 .col-xl-8.col-lg-7.col-md-6 h1.display-3 span.text-success {
-  color: #46e87c;
+  color: #28a645;
 }
 .col-xl-8.col-lg-7.col-md-6 p.lead {
   font-size: 1.1rem;
@@ -321,7 +321,7 @@ section h1.display-4 {
   z-index: 1;
 }
 section .badge.bg-success {
-  background-color: #46e87c !important;
+  background-color: #28a645 !important;
   color: #000;
   font-size: 0.75rem;
   padding: 0.3rem 0.6rem;
@@ -340,7 +340,7 @@ section .project-card:hover {
   transform: translateY(-5px);
 }
 section .project-card:hover h3 {
-  color: #46e87c;
+  color: #28a645;
 }
 section .project-card img {
   width: 100%;
@@ -356,7 +356,7 @@ section .project-card h3 {
   color: #fff;
 }
 section .project-card .btn.btn-success {
-  background-color: #46e87c;
+  background-color: #28a645;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -364,7 +364,7 @@ section .project-card .btn.btn-success {
   transition: background-color 0.3s ease;
 }
 section .project-card .btn.btn-success:hover {
-  background-color: #46e87c;
+  background-color: #28a645;
 }
 
 .skills {
@@ -398,7 +398,7 @@ section .project-card .btn.btn-success:hover {
   font-family: "Playfair Display", serif;
 }
 .skills .skill .label-row span:last-child {
-  color: #46e87c;
+  color: #28a645;
   font-weight: bold;
 }
 .skills .skill .progress-bar {
@@ -412,7 +412,7 @@ section .project-card .btn.btn-success:hover {
 .skills .skill .progress-bar .progress-fill {
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, #46e87c, #28d97a);
+  background: linear-gradient(90deg, #28a645, #28d97a);
   transition: width 1.2s ease-in-out;
   border-radius: inherit;
 }
@@ -434,10 +434,10 @@ section h1.display-4 {
   font-family: "Montserrat", sans-serif;
 }
 section h1.display-4 span.text-success {
-  color: #46e87c;
+  color: #28a645;
 }
 section .badge.bg-success {
-  background-color: #46e87c !important;
+  background-color: #28a645 !important;
   color: #000;
   font-size: 0.75rem;
   padding: 0.3rem 0.6rem;
@@ -470,7 +470,7 @@ section .social-icon {
   transition: background-color 0.3s ease;
 }
 section .social-icon:hover {
-  background-color: #46e87c;
+  background-color: #28a645;
 }
 section .social-icon i.fab {
   width: 42px;
@@ -504,7 +504,7 @@ section form textarea {
 }
 section form input:focus,
 section form textarea:focus {
-  border-bottom-color: #46e87c;
+  border-bottom-color: #28a645;
 }
 section form button[type=button] {
   background-color: transparent;
@@ -515,13 +515,13 @@ section form button[type=button] {
   transition: background-color 0.3s ease;
 }
 section form button[type=button]:hover {
-  background-color: #46e87c;
+  background-color: #28a645;
   color: #fff;
 }
 section form button[type=submit] {
-  background-color: #46e87c;
+  background-color: #28a645;
   border: none;
-  color: #000;
+  color: #fff;
   border-radius: 10px;
   padding: 15px 35px;
   font-weight: bold;
@@ -531,7 +531,7 @@ section form button[type=submit] {
   font-family: "Playfair Display", serif;
 }
 section form button[type=submit]:hover {
-  color: #fff;
+  color: #000;
 }
 
 .custom-form-control {
@@ -566,7 +566,7 @@ section h1.display-4 {
   z-index: 1;
 }
 section .badge.bg-success {
-  background-color: #46e87c !important;
+  background-color: #28a645 !important;
   color: #000;
   font-size: 0.75rem;
   padding: 0.3rem 0.6rem;
@@ -648,8 +648,6 @@ section .swiper-button-prev:hover {
 header {
   background-color: #212529;
   color: #fff;
-  position: sticky;
-  top: 0;
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
@@ -674,7 +672,7 @@ header h4 {
 header p.text-success {
   margin: 0;
   font-size: 0.9rem;
-  color: #46e87c !important;
+  color: #28a645 !important;
   font-family: "Playfair Display", serif;
 }
 header nav ul.navbar-nav {
@@ -692,15 +690,15 @@ header nav ul.navbar-nav li.nav-item a.nav-link {
   font-family: "Montserrat", sans-serif;
 }
 header nav ul.navbar-nav li.nav-item a.nav-link:hover {
-  color: #46e87c;
+  color: #28a645;
 }
 header nav ul.navbar-nav li.nav-item:not(:last-child) {
   margin-right: 1.5rem;
 }
 header button.btn-success {
   font-weight: bold;
-  color: #000;
-  background-color: #46e87c;
+  color: #fff;
+  background-color: #28a645;
   border: none;
   padding: 15px 35px;
   border-radius: 30px;
@@ -708,8 +706,8 @@ header button.btn-success {
   transition: 0.3s ease;
 }
 header button.btn-success:hover {
-  background-color: #46e87c;
-  color: #fff;
+  background-color: #28a645;
+  color: #000;
 }
 
 #mainHeader {
@@ -717,15 +715,17 @@ header button.btn-success:hover {
   width: 100%;
   top: 0;
   z-index: 999;
+  background-color: #212529;
   transition: all 0.4s ease-in-out;
 }
+
 #mainHeader.is-sticky {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  transform: translateY(-100%);
-  animation: slideDown 0.8s ease forwards;
+  background-color: #212529;
+  animation: slideDown 0.7s ease forwards;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -751,7 +751,7 @@ footer p {
 }
 
 .highlighted-name {
-  color: #46e87c;
+  color: #28a645;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -768,33 +768,145 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99999;
+  opacity: 1;
+  transition: opacity 0.8s ease;
+  /* slower smooth fade */
+}
+
+.loader {
+  display: flex;
+  gap: 15px;
+}
+
+.loader span {
+  width: 12px;
+  height: 12px;
+  background-color: #218838;
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: pulse 0.7s infinite ease-in-out;
+}
+
+.loader span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.loader span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loader span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+}
+.floating-message {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #28a645;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 14px 20px;
+  font-size: 20px;
+  cursor: pointer;
   z-index: 9999;
-  opacity: 1;
-  transition: opacity 0.6s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: bottom 0.3s ease, transform 0.3s ease;
+}
+.floating-message i {
+  font-size: 22px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 1;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
-.loader-icon {
-  color: #46e87c;
-}
-
-#preloader.hidden {
+.chat-box {
+  position: fixed;
+  bottom: 100px;
+  right: 90px;
+  width: 335px;
+  background: #212529;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  z-index: 10000;
+  transform: scale(0.8) translateX(20px);
   opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.6s ease;
+  transition: all 0.4s ease;
 }
-
-#preloader.visible {
+.chat-box.show {
+  display: flex;
   opacity: 1;
-  pointer-events: auto;
+  transform: scale(1) translateX(0);
 }
-
-body {
-  background-color: rgba(18, 18, 18, 0.85);
-  /* slightly transparent dark */
-  backdrop-filter: blur(5px);
-  /* background blur */
-  -webkit-backdrop-filter: blur(5px);
-  /* for Safari */
+.chat-box .chat-header {
+  background: #28a645;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.chat-box .chat-info {
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+  color: #ccc;
+  font-family: "Playfair Display", serif;
+}
+.chat-box .chat-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.chat-box .chat-form input,
+.chat-box .chat-form textarea {
+  width: 100%;
+  padding: 0.6rem 0;
+  font-size: 1rem;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.39);
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-family: "Playfair Display", serif;
+}
+.chat-box .chat-form button {
+  background: #28a645;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.chat-box .chat-form button:hover {
+  color: #000;
+}
+.chat-box .online {
+  color: #00ff73;
+  font-family: "Playfair Display", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

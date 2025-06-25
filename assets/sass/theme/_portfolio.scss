@@ -19,7 +19,7 @@ section {
     }
 
     .badge.bg-success {
-        background-color: #46e87c !important;
+        background-color: #28a645 !important;
         color: #000;
         font-size: 0.75rem;
         padding: 0.3rem 0.6rem;
@@ -41,7 +41,7 @@ section {
             transform: translateY(-5px);
 
             h3 {
-                color: #46e87c; // 🟢 Title color on hover
+                color: #28a645; // 🟢 Title color on hover
             }
         }
 
@@ -61,7 +61,7 @@ section {
         }
 
         .btn.btn-success {
-            background-color: #46e87c;
+            background-color: #28a645;
             border: none;
             padding: 0.5rem 1rem;
             border-radius: 0.5rem;
@@ -69,7 +69,7 @@ section {
             transition: background-color 0.3s ease;
 
             &:hover {
-                background-color: #46e87c;
+                background-color: #28a645;
             }
         }
     }

@@ -1,0 +1,115 @@
+// ===========================
+// Floating Messenger Button
+// ===========================
+
+.floating-message {
+    position: fixed;
+    bottom: 20px; // This will be changed via JS on scroll
+    right: 20px;
+    background: #28a645;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 14px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: bottom 0.3s ease, transform 0.3s ease;
+
+    i {
+        font-size: 22px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 1;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+}
+
+// ===========================
+// Chat Box
+// ===========================
+
+.chat-box {
+    position: fixed;
+    bottom: 100px;
+    right: 90px;
+    width: 335px;
+    background: #212529;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    z-index: 10000;
+    transform: scale(0.8) translateX(20px);
+    opacity: 0;
+    transition: all 0.4s ease;
+
+    &.show {
+        display: flex;
+        opacity: 1;
+        transform: scale(1) translateX(0);
+    }
+
+    .chat-header {
+        background: #28a645;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px 5px 0 0;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .chat-info {
+        font-size: 14px;
+        padding: 10px 0;
+        text-align: center;
+        color: #ccc;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .chat-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.6rem 0;
+            font-size: 1rem;
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid rgba(204, 204, 204, 0.39);
+            outline: none;
+            transition: border-color 0.3s ease;
+            font-family: 'Playfair Display', serif;
+        }
+
+        button {
+            background: #28a645;
+            border: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.3s ease;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    .online {
+        color: #00ff73;
+        font-family: 'Playfair Display', serif;
+    }
+}

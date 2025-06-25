@@ -20,12 +20,12 @@ section {
         font-family: 'Montserrat', sans-serif;
 
         span.text-success {
-            color: #46e87c; // Green text
+            color: #28a645; // Green text
         }
     }
 
     .badge.bg-success {
-        background-color: #46e87c !important;
+        background-color: #28a645 !important;
         color: #000;
         font-size: 0.75rem;
         padding: 0.3rem 0.6rem;
@@ -61,7 +61,7 @@ section {
         transition: background-color 0.3s ease;
 
         &:hover {
-            background-color: #46e87c;
+            background-color: #28a645;
         }
 
         i.fab {
@@ -101,7 +101,7 @@ section {
             transition: border-color 0.3s ease;
 
             &:focus {
-                border-bottom-color: #46e87c;
+                border-bottom-color: #28a645;
             }
         }
 
@@ -114,15 +114,15 @@ section {
             transition: background-color 0.3s ease;
 
             &:hover {
-                background-color: #46e87c;
+                background-color: #28a645;
                 color: #fff;
             }
         }
 
         button[type="submit"] {
-            background-color: #46e87c;
+            background-color: #28a645;
             border: none;
-            color: #000;
+            color: #fff;
             border-radius: 10px;
             padding: 15px 35px;
             font-weight: bold;
@@ -133,7 +133,7 @@ section {
 
 
             &:hover {
-                color: #fff;
+                color: #000;
             }
         }
     }

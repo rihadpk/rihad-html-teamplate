@@ -31,7 +31,7 @@
             font-family: 'Playfair Display', serif;
 
             span:last-child {
-                color: #46e87c;
+                color: #28a645;
                 font-weight: bold;
             }
         }
@@ -47,7 +47,7 @@
             .progress-fill {
                 height: 100%;
                 width: 0;
-                background: linear-gradient(90deg, #46e87c, #28d97a);
+                background: linear-gradient(90deg, #28a645, #28d97a);
                 transition: width 1.2s ease-in-out;
                 border-radius: inherit;
             }
