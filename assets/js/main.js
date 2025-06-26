@@ -24,7 +24,7 @@ const swiper = new Swiper(".mySwiper", {
 // animated text loop (hero section maybe)
 // ===========================
 
-const animatedWords = ["Wordpress", "Theme", "Developer"];
+const animatedWords = ["Wordpress", "And", "HTML", "Theme", "Developer"];
 let currentWordIndex = 0;
 const textElement = document.getElementById("animated-text");
 
@@ -240,4 +240,5 @@ overlay.addEventListener('click', () => {
     sidebar.classList.remove('show');
     overlay.classList.remove('show');
 });
+
 // and //
