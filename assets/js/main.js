@@ -187,7 +187,13 @@ messageBtn.addEventListener("click", (e) => {
     // Toggle chat box
     chatBox.classList.toggle("show");
 });
-
+document.addEventListener("click", function (e) {
+    if (isOpen && !chatBox.contains(e.target) && !messageBtn.contains(e.target)) {
+        chatBox.classList.remove("show");
+        msgIcon.className = "fa-brands fa-facebook-messenger";
+        isOpen = false;
+    }
+});
 // Auto close chat box when clicking outside
 document.getElementById("contactForm").addEventListener("submit", function (e) {
     e.preventDefault();
@@ -212,5 +218,26 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
         });
 });
 
-
 //end //
+
+// mobile menu //
+const toggleBtn = document.getElementById('menuToggle');
+const sidebar = document.getElementById('mobileSidebar');
+const closeBtn = document.getElementById('closeBtn');
+const overlay = document.getElementById('overlay');
+
+toggleBtn.addEventListener('click', () => {
+    sidebar.classList.add('show');
+    overlay.classList.add('show');
+});
+
+closeBtn.addEventListener('click', () => {
+    sidebar.classList.remove('show');
+    overlay.classList.remove('show');
+});
+
+overlay.addEventListener('click', () => {
+    sidebar.classList.remove('show');
+    overlay.classList.remove('show');
+});
+// and //

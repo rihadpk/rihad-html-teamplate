@@ -54,3 +54,159 @@
         transform: scale(1.4);
     }
 }
+
+// mobile menu //
+
+
+/* Sidebar Styles */
+.mobile-sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 280px;
+    max-width: 90vw;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    z-index: 2000;
+    transition: right 0.3s ease;
+}
+
+.mobile-sidebar.show {
+    right: 0;
+}
+
+.mobile-sidebar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mobile-sidebar .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.mobile-sidebar .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mobile-sidebar .profile h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.mobile-sidebar .profile p {
+    margin: 0;
+    color: #4caf50;
+    font-size: 12px;
+}
+
+.mobile-sidebar .intro {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.mobile-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.mobile-sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.mobile-sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.mobile-sidebar .social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    background: white;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1500;
+}
+
+.overlay.show {
+    display: block;
+}
+
+@media (max-width: 1180px) {
+
+    nav.navbar,
+    .btn.btn-success {
+        display: none !important;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    header .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-sidebar .intro p {
+        font-size: 13px;
+    }
+
+    .mobile-sidebar nav ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-sidebar {
+        padding: 15px;
+    }
+
+    .mobile-sidebar .profile h4 {
+        font-size: 16px;
+    }
+
+    .mobile-sidebar .intro h3 {
+        font-size: 16px;
+    }
+
+    .mobile-sidebar nav ul li a {
+        font-size: 14px;
+    }
+}
